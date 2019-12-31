@@ -1,0 +1,4 @@
+# Referenced at C:\Users\karthik ktns\Desktop\VulnDroid\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:14
+-keep class android.support.multidex.MultiDexApplication { <init>(); }
+# Referenced at C:\Users\karthik ktns\Desktop\VulnDroid\app\build\intermediates\merged_manifests\debug\AndroidManifest.xml:14
+-keep class android.support.v4.app.CoreComponentFactory { <init>(); }

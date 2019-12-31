@@ -1,0 +1,157 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.Mihir.VulnDroid.localstorage"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:5:5-80
+11-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:5:22-77
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:6:5-81
+12-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:6:22-78
+13
+14    <application
+14-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:8:5-72:19
+15        android:name="android.support.multidex.MultiDexApplication"
+16        android:allowBackup="true"
+16-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:9:9-35
+17        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+17-->[com.android.support:support-compat:28.0.0] C:\Users\karthik ktns\.gradle\caches\transforms-2\files-2.1\b73d0db3c489aeab8b531c92b0313ef9\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+18        android:debuggable="true"
+19        android:icon="@drawable/logo"
+19-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:10:9-38
+20        android:label="@string/title"
+20-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:11:9-38
+21        android:testOnly="true"
+22        android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+22-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:12:9-67
+23        <activity android:name="com.Mihir.VulnDroid.localstorage.InternalStorage" >
+23-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:13:9-17:20
+23-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:13:19-82
+24            <meta-data
+24-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:14:13-16:81
+25                android:name="android.support.PARENT_ACTIVITY"
+25-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:15:17-63
+26                android:value="com.Mihir.VulnDroid.localstorage.MainActivity" />
+26-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:16:17-78
+27        </activity>
+28        <activity android:name="com.Mihir.VulnDroid.localstorage.ExternalStorage" >
+28-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:18:9-22:20
+28-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:18:19-82
+29            <meta-data
+29-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:14:13-16:81
+30                android:name="android.support.PARENT_ACTIVITY"
+30-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:15:17-63
+31                android:value="com.Mihir.VulnDroid.localstorage.MainActivity" />
+31-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:16:17-78
+32        </activity>
+33        <activity android:name="com.Mihir.VulnDroid.localstorage.insecureCert" >
+33-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:23:9-27:20
+33-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:23:19-79
+34            <meta-data
+34-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:14:13-16:81
+35                android:name="android.support.PARENT_ACTIVITY"
+35-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:15:17-63
+36                android:value="com.Mihir.VulnDroid.localstorage.MainActivity" />
+36-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:16:17-78
+37        </activity>
+38        <activity android:name="com.Mihir.VulnDroid.localstorage.ReadDatabase" >
+38-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:28:9-32:20
+38-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:28:19-79
+39            <meta-data
+39-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:14:13-16:81
+40                android:name="android.support.PARENT_ACTIVITY"
+40-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:15:17-63
+41                android:value="com.Mihir.VulnDroid.localstorage.MainActivity" />
+41-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:16:17-78
+42        </activity>
+43        <activity android:name="com.Mihir.VulnDroid.localstorage.Scoreboard" >
+43-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:33:9-37:20
+43-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:33:19-77
+44            <meta-data
+44-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:14:13-16:81
+45                android:name="android.support.PARENT_ACTIVITY"
+45-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:15:17-63
+46                android:value="com.Mihir.VulnDroid.localstorage.MainActivity" />
+46-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:16:17-78
+47        </activity>
+48        <activity android:name="com.Mihir.VulnDroid.localstorage.congo" />
+48-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:38:9-75
+48-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:38:19-72
+49        <activity android:name="com.Mihir.VulnDroid.localstorage.ReadString" >
+49-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:39:9-43:20
+49-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:39:19-77
+50            <meta-data
+50-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:14:13-16:81
+51                android:name="android.support.PARENT_ACTIVITY"
+51-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:15:17-63
+52                android:value="com.Mihir.VulnDroid.localstorage.MainActivity" />
+52-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:16:17-78
+53        </activity>
+54        <activity android:name="com.Mihir.VulnDroid.localstorage.SplashActivity" >
+54-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:44:9-50:20
+54-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:44:19-81
+55            <intent-filter>
+55-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:45:13-49:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:46:17-69
+56-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:46:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:48:17-77
+58-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:48:27-74
+59            </intent-filter>
+60        </activity>
+61        <activity android:name="com.Mihir.VulnDroid.localstorage.MainActivity" />
+61-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:51:9-82
+61-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:51:19-79
+62        <activity android:name="com.Mihir.VulnDroid.localstorage.Unhash_me" >
+62-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:52:9-56:20
+62-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:52:19-76
+63            <meta-data
+63-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:14:13-16:81
+64                android:name="android.support.PARENT_ACTIVITY"
+64-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:15:17-63
+65                android:value="com.Mihir.VulnDroid.localstorage.MainActivity" />
+65-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:16:17-78
+66        </activity>
+67        <activity android:name="com.Mihir.VulnDroid.localstorage.SharedPref" >
+67-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:57:9-61:20
+67-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:57:19-77
+68            <meta-data
+68-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:14:13-16:81
+69                android:name="android.support.PARENT_ACTIVITY"
+69-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:15:17-63
+70                android:value="com.Mihir.VulnDroid.localstorage.MainActivity" />
+70-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:16:17-78
+71        </activity>
+72        <activity android:name="com.Mihir.VulnDroid.localstorage.ReadMem" >
+72-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:62:9-66:20
+72-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:62:19-74
+73            <meta-data
+73-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:14:13-16:81
+74                android:name="android.support.PARENT_ACTIVITY"
+74-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:15:17-63
+75                android:value="com.Mihir.VulnDroid.localstorage.MainActivity" />
+75-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:16:17-78
+76        </activity>
+77        <activity android:name="com.Mihir.VulnDroid.localstorage.LogMe" >
+77-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:67:9-71:20
+77-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:67:19-72
+78            <meta-data
+78-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:14:13-16:81
+79                android:name="android.support.PARENT_ACTIVITY"
+79-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:15:17-63
+80                android:value="com.Mihir.VulnDroid.localstorage.MainActivity" />
+80-->C:\Users\karthik ktns\Desktop\VulnDroid\app\src\main\AndroidManifest.xml:16:17-78
+81        </activity>
+82    </application>
+83
+84</manifest>

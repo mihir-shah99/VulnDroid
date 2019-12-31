@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/crop">
+    <ScrollView
+        android:id="@+id/ScrollView01"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="fill_vertical"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="105dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/title"
+            android:textSize="30sp"
+            android:textColor="#FFFFFF"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="launchsecond"
+            android:text="@string/level1"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            android:layout_marginTop="30dp"/>
+
+        <Button
+            android:id="@+id/unhashed"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:onClick="launchthird"
+            android:text="@string/level2"
+            android:textAllCaps="false"
+            android:textSize="30sp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="launchfourth"
+            android:text="@string/level3"
+            android:layout_marginTop="10dp"
+            android:textAllCaps="false"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/shared"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="launchfifth"
+            android:text="@string/level4"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/readm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="launchseventh"
+            android:text="@string/level5"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/readd"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:onClick="launcheigth"
+            android:text="@string/level6"
+            android:textAllCaps="false"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/internal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="launchtenth"
+            android:text="@string/level8"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:textSize="30sp" />
+        <Button
+            android:id="@+id/external"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="launcheleventh"
+            android:text="@string/level9"
+            android:textAllCaps="false"
+            android:layout_marginTop="10dp"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/score1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="launchscore"
+            android:text="@string/score1"
+            android:textAllCaps="false"
+            android:textSize="30sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="55dp"/>
+
+    </LinearLayout>
+    </ScrollView>>
+</android.support.constraint.ConstraintLayout>

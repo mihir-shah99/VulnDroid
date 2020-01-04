@@ -1,5 +1,5 @@
 # VulnDroid - The Vulnerable Android App
-    __VulnDroid__ is a *Vulnerable Android App* designed in a CTF challenge style, it focuses on learning the exploitation of Android
+    **VulnDroid** is a *Vulnerable Android App* designed in a CTF challenge style, it focuses on learning the exploitation of Android
     vulnerabilities pertaining to Local Storage, i.e. In-The-App malpractices by the developers. This playground has a total of Eight
     levels- with more to come. The attacker will have knowledge of the victim and will send a crafted payload, to read the flag
     and enter it within the app, on entering the correct flag, the user is greeted with a Congratulations page.

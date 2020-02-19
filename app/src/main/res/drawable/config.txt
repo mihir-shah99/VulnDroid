@@ -1,0 +1,97 @@
+Name: test_API_23
+
+CPU/ABI: Google APIs Intel Atom (x86)
+
+Path: C:\Users\Mihir Shah\.android\avd\test_API_23.avd
+
+Target: google_apis [Google APIs] (API level 23)
+
+Skin: pixel_3a_xl
+
+SD Card: 512M
+
+fastboot.chosenSnapshotFile: 
+
+runtime.network.speed: full
+
+hw.accelerometer: yes
+
+hw.device.name: pixel_3a_xl
+
+hw.lcd.width: 1080
+
+hw.initialOrientation: Portrait
+
+image.androidVersion.api: 23
+
+tag.id: google_apis
+
+hw.mainKeys: no
+
+hw.camera.front: emulated
+
+avd.ini.displayname: test API 23
+
+hw.gpu.mode: auto
+
+hw.ramSize: 1536
+
+PlayStore.enabled: false
+
+fastboot.forceColdBoot: no
+
+hw.cpu.ncore: 4
+
+hw.keyboard: yes
+
+hw.sensors.proximity: yes
+
+hw.dPad: no
+
+hw.lcd.height: 2160
+
+vm.heapSize: 256
+
+skin.dynamic: yes
+
+hw.device.manufacturer: Google
+
+hw.gps: yes
+
+hw.audioInput: yes
+
+image.sysdir.1: system-images\android-23\google_apis\x86\
+
+showDeviceFrame: yes
+
+hw.camera.back: virtualscene
+
+AvdId: test_API_23
+
+hw.lcd.density: 400
+
+hw.arc: false
+
+hw.device.hash2: MD5:a05cb650077c9c839da91c3d4284b490
+
+fastboot.forceChosenSnapshotBoot: no
+
+fastboot.forceFastBoot: yes
+
+hw.trackBall: no
+
+hw.battery: yes
+
+hw.sdCard: yes
+
+tag.display: Google APIs
+
+runtime.network.latency: none
+
+disk.dataPartition.size: 800M
+
+hw.sensors.orientation: yes
+
+avd.ini.encoding: UTF-8
+
+hw.gpu.enabled: yes

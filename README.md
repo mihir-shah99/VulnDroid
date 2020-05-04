@@ -53,7 +53,7 @@
 ## Todo
 1. Create more levels on for this App
 2. Minor changes for the UX of the app
-3. Create another app for Web hooking, Dynamic testing, etc.
+3. Create another app for android testing on Web hooking, Dynamic testing, etc.
 
 
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/L4L81BEBM)

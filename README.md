@@ -17,7 +17,8 @@
 > This also teaches the practice of secure coding. 
 > The developer can observe the source code and understand that the flag value is stored in an encrypted format and only the hash of the user input flag is stored.
 > The validated is also carried out only by comparing the hash values. 
-> This makes the Source code quite difficult to reverse from the bundled APK. 
+> This makes the Source code quite difficult to reverse from the bundled APK 
+> even in absence of any obfuscation tool like ProGuard
 
 # Steps for installation
 1. Open the Project in Android Studio

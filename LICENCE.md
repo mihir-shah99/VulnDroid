@@ -59,4 +59,8 @@ Creative Commons is not a party to this License, and makes no warranty whatsoeve
 
 Except for the limited purpose of indicating to the public that the Work is licensed under the CCPL, neither party will use the trademark "Creative Commons" or any related trademark or logo of Creative Commons without the prior written consent of Creative Commons. Any permitted use will be in compliance with Creative Commons' then-current trademark usage guidelines, as may be published on its website or otherwise made available upon request from time to time.
 
+9. Super Imposition
+The section clearly states that super imposing to all the above points - No commercial organization, or non-profit organization or any community/group or individual may use this project, or a part of this project for any commerical/monetory purposes prior the confirmation from the author of this project. This applies but doesn't restrict to organizations making any monetory benefits in any ways from any of the parent/sibling or the child companies. This clause of the Licence supersedes all the clauses and strictly prohibits any financial use of this project.
+
+
 Creative Commons may be contacted at https://creativecommons.org/.
